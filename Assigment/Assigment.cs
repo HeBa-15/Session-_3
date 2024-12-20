@@ -53,43 +53,43 @@ namespace Assigment
 
             #region Q3: Write a program that takes 3 integers from the user then prints the max element and the min element.
 
-            Console.WriteLine("Enter first Number ");
+            // Console.WriteLine("Enter first Number ");
 
-            int num1 = int.Parse(Console.ReadLine());
+            // int num1 = int.Parse(Console.ReadLine());
 
-            Console.WriteLine("Enter  second Number ");
+            // Console.WriteLine("Enter second Number ");
 
-            int num2 = int.Parse(Console.ReadLine());
+            // int num2 = int.Parse(Console.ReadLine());
 
-            Console.WriteLine("Enter third Number ");
+            // Console.WriteLine("Enter third Number ");
 
-            int num3 = int.Parse(Console.ReadLine());
+            // int num3 = int.Parse(Console.ReadLine());
 
 
-           int maxNumber = num1;
-            int minNumber = num1;
+            //int maxNumber = num1;
+            // int minNumber = num1;
 
-            if (num2 > maxNumber)
-            {
-                maxNumber = num2;
-            }
-            else if (num2 < minNumber)
-            {
-                minNumber = num2;
-            }
+            // if (num2 > maxNumber)
+            // {
+            //     maxNumber = num2;
+            // }
+            // else if (num2 < minNumber)
+            // {
+            //     minNumber = num2;
+            // }
 
-            if (num3 > maxNumber)
-            {
-                maxNumber = num3;
-            }
-            else if (num3 < minNumber)
-            {
-                minNumber = num3;
-            }
+            // if (num3 > maxNumber)
+            // {
+            //     maxNumber = num3;
+            // }
+            // else if (num3 < minNumber)
+            // {
+            //     minNumber = num3;
+            // }
 
-            Console.WriteLine( $" Max element = {maxNumber}");
+            // Console.WriteLine( $" Max element = {maxNumber}");
 
-            Console.WriteLine($" Min element = {minNumber}");
+            // Console.WriteLine($" Min element = {minNumber}");
 
 
 
@@ -99,6 +99,17 @@ namespace Assigment
             #endregion
 
 
+            #region Q4:Write a program that allows the user to insert an integer number then check If a number is even or odd.
+
+            Console.WriteLine("Enter integer Number");
+
+            int num = int.Parse(Console.ReadLine());
+
+            if(num%2==0)
+                Console.WriteLine("Number is Even");
+            else
+                Console.WriteLine("Number is Odd");
+            #endregion
         }
     }
 }
