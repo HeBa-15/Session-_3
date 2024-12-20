@@ -99,17 +99,40 @@ namespace Assigment
             #endregion
 
 
+
             #region Q4:Write a program that allows the user to insert an integer number then check If a number is even or odd.
 
-            Console.WriteLine("Enter integer Number");
+            //Console.WriteLine("Enter integer Number");
 
-            int num = int.Parse(Console.ReadLine());
+            //int num = int.Parse(Console.ReadLine());
 
-            if(num%2==0)
-                Console.WriteLine("Number is Even");
-            else
-                Console.WriteLine("Number is Odd");
+            //if(num%2==0)
+            //    Console.WriteLine("Number is Even"); 
+            //else
+            //    Console.WriteLine("Number is Odd");
+
             #endregion
+
+
+            #region Q5:Write a program that takes character from the user then if it is a vowel chars (a,e,I,o,u) then print (vowel) otherwise print (consonant).
+
+            Console.WriteLine("Enter Char");
+            char ch = char.Parse(Console.ReadLine());
+            if (ch == "a" || ch == "e" || ch == "i" || ch == "o"|| ch == "u")
+            {
+                Console.WriteLine("the char is vowel");
+
+            }
+            else
+            {
+                Console.WriteLine("the char is Consonant");
+
+            }
+            #endregion
+
+
+
+
         }
     }
 }
