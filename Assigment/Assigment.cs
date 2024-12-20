@@ -116,20 +116,34 @@ namespace Assigment
 
             #region Q5:Write a program that takes character from the user then if it is a vowel chars (a,e,I,o,u) then print (vowel) otherwise print (consonant).
 
-            Console.WriteLine("Enter Char");
-            char ch = char.Parse(Console.ReadLine());
-            if (ch == "a" || ch == "e" || ch == "i" || ch == "o"|| ch == "u")
-            {
-                Console.WriteLine("the char is vowel");
+            //Console.WriteLine("Enter Char");
+            //char ch = char.Parse(Console.ReadLine());
+            //if (ch == "a" || ch == "e" || ch == "i" || ch == "o"|| ch == "u")
+            //{
+            //    Console.WriteLine("the char is vowel");
 
-            }
-            else
-            {
-                Console.WriteLine("the char is Consonant");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("the char is Consonant");
 
-            }
+            //}
             #endregion
 
+
+            #region Q7: Write a program that allows the user to insert an integer then print a multiplication table up to 12.
+
+            //Console.WriteLine("Enter integer");
+
+            //int num = int.Parse(Console.ReadLine());
+
+            //for (int i = 1; i <= 12; i++)
+            //{
+            //    Console.WriteLine(num * i);
+
+            //}
+
+            #endregion
 
 
 
